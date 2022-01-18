@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    background-color: rgb(29, 30, 32);
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color: white;
+    min-width: 700px;
+}
+.nav-bar{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;;
+    margin-top: 10px;
+}
+li{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+.nav-bar li>a{
+    color: white;
+}
+.menuIcon{
+    height: 30px;
+    width: 30px;
+}
+.userImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .logo{
+    margin-top: 250px;
+    margin-bottom: 24px;
+}
+.input-container input{
+
+    height: 40px;
+    width: 600px;
+    padding-left: 40px;
+    border: 1px solid rgb(85, 88, 93);
+    background-color: rgb(29, 30, 32);
+    border-radius:32px;
+    font-size: 1.4rem;
+    color: white;
+}
+.input-container img{
+    width: 25px;
+    height: 25px;
+}
+.input-container span:first-child{
+    position: relative;
+    top: 8px;
+    left: 35px;
+}
+.input-container span:last-child{
+    position: relative;
+    top: 8px;
+    right: 35px;
+}
+.main-content input:hover{
+    background-color: rgb(43, 44, 47);;
+}
+.main-content input:focus{
+    outline: none;
+}
+.button-container{
+    display: flex;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 8px 24px 0px;
+    width: 150px;
+    height: 36px;
+    color: white;
+    background-color: rgb(42, 43, 56);
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.button:hover{
+    border: 1px solid rgb(85, 88, 93);
+}
+p > a{
+    text-decoration: none;
+    color: rgb(128, 174, 242);
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    color: rgb(122, 125, 129);
+    border-top: 2px solid rgb(30, 32, 35);
+}
+.footer-left ul, .footer-rigth ul{
+    display: flex;
+}
+.footer-left li>a{
+    color: rgb(122, 125, 129);
+}
+footer div:first-child{
+    padding-left: 20px;
+}
+footer div:last-child{
+    padding-right: 20px;
+}
+ul > li{
+    cursor: pointer;
+}
